@@ -1,19 +1,18 @@
 {
-  "name": "express-api-starter",
-  "version": "1.2.0",
-  "description": " A basic starter for an express.js API",
+  "name": "express-boilerplate",
+  "version": "1.0.0",
+  "description": " A starting point for all express apps",
   "main": "index.js",
   "scripts": {
     "start": "node src/index.js",
     "dev": "nodemon src/index.js",
-    "lint": "eslint --fix src",
-    "test": "mocha --exit"
+    "lint": "eslint --fix src"
   },
   "keywords": [],
-  "author": "CJ R. <cj@null.computer> (https://w3cj.now.sh)",
+  "author": "Shreesh Kulkarni <sgkul2000@gmail.com> (https://codekulkarni.com)",
   "repository": {
     "type": "git",
-    "url": "https://github.com/w3cj/express-api-starter.git"
+    "url": "https://github.com/sgkul2000/express-boilerplate"
   },
   "license": "MIT",
   "dependencies": {
@@ -27,8 +26,6 @@
     "eslint": "^7.7.0",
     "eslint-config-airbnb-base": "^14.2.0",
     "eslint-plugin-import": "^2.22.0",
-    "mocha": "^8.1.2",
-    "nodemon": "^2.0.4",
-    "supertest": "^4.0.2"
+    "nodemon": "^2.0.4"
   }
 }
