@@ -6,7 +6,7 @@ const cors = require("cors")
 require("dotenv").config()
 
 const middlewares = require("./middlewares")
-const api = require("./api")
+// const api = require("./api")
 
 const app = express()
 
@@ -19,11 +19,11 @@ app.use(express.static(`${__dirname}/assets`))
 
 app.get("/", (req, res) => {
 	res.json({
-		message: "🦄🌈✨👋🌎🌍🌏✨🌈🦄"
+		message: "You have reached the api"
 	})
 })
 
-app.use("/api/", api)
+// app.use("/api/", api)
 
 app.use(middlewares.notFound)
 app.use(middlewares.errorHandler)

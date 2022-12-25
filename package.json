@@ -1,7 +1,7 @@
 {
-  "name": "express-boilerplate",
+  "name": "cctut",
   "version": "1.0.0",
-  "description": " A starting point for all express apps",
+  "description": "cc tutorial application",
   "main": "index.js",
   "scripts": {
     "start": "node src/index.js",
@@ -9,10 +9,10 @@
     "lint": "eslint --fix src"
   },
   "keywords": [],
-  "author": "Shreesh Kulkarni <sgkul2000@gmail.com> (https://codekulkarni.com)",
+  "author": "Shreesh Kulkarni <sgkul2000@gmail.com> (https://shreeshkulkarni.com)",
   "repository": {
     "type": "git",
-    "url": "https://github.com/sgkul2000/express-boilerplate"
+    "url": "https://github.com/sgkul2000/cc-tut"
   },
   "license": "MIT",
   "dependencies": {
