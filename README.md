@@ -1,6 +1,4 @@
-# Express Boilerplate - A startpoint for all express apps
-API starter pack forked from [w3cj/express-api-starter](https://github.com/w3cj/express-api-starter)
-A starting point for all express apps.
+# CC Tutorial
 
 
 Includes API Server utilities:
