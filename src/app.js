@@ -2,11 +2,11 @@ const express = require("express")
 const morgan = require("morgan")
 const helmet = require("helmet")
 const cors = require("cors")
+const path = require("path")
 
 require("dotenv").config()
 
 const middlewares = require("./middlewares")
-// const api = require("./api")
 
 const app = express()
 
@@ -18,12 +18,9 @@ app.use(express.json())
 app.use(express.static(`${__dirname}/assets`))
 
 app.get("/", (req, res) => {
-	res.json({
-		message: "You have reached the api"
-	})
+	res.sendFile(path.join(__dirname + "/templates/index.html"))
 })
 
-// app.use("/api/", api)
 
 app.use(middlewares.notFound)
 app.use(middlewares.errorHandler)

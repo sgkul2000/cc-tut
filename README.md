@@ -1,5 +1,8 @@
 # CC Tutorial
+A simple app with a beautiful christmas tree
 
+## Deployment
+Deployed on Google Cloud App Engine
 
 Includes API Server utilities:
 
@@ -44,3 +47,6 @@ npm run test
 ```
 npm run dev
 ```
+
+## Documentation
+https://docs.google.com/document/d/1wQ8fCOMnHgEnGmUHmtyMGya_ZNJQgjH6SUELUhkA75M/edit
